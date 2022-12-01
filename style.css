@@ -1,0 +1,220 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+html, body{
+    scroll-behavior: smooth;
+}
+
+.widthstyle{
+    width:960px;
+}
+
+.paddingbot{
+    padding-bottom: 65px;
+}
+
+.white{
+    color: white;
+}
+
+.bolded{
+    font-weight: bold;
+}
+
+.smaller{
+    font-size: 18px;
+}
+
+.bigger{
+    font-size: 36px;
+}
+
+/* *//* NAGŁÓWEK *//* */
+
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: #4E4E4E;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap_header{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+   display: flex;
+   gap: 46px; 
+}
+
+.menunav{
+    color: #F1F1F1;
+    text-decoration: none;
+}
+
+.contact{
+    cursor: not-allowed;
+}
+
+/* *//* HERO *//* */
+
+.background_hero{
+    background-image: url(https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    height: calc(100vh - 50px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.hero{
+    margin-top: 178px;
+}
+
+.smallerherofont{
+    margin-top: 62px;
+}
+
+.btn{
+    margin-top: 56px;
+    background: none;
+    border: 3px solid white;
+    width: 164px;
+    height: 41px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}
+
+/* *//* ABOUT *//* */
+
+.backgroundabout{
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+}
+
+.speciallist{
+    margin-top: 50px;
+    color: #152D41;
+}
+
+.employees{
+    margin-top: 15px;
+}
+
+.employee{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.employee:nth-of-type(even){
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.image{
+    width: 197px;
+    height: 197px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    background-position: center;
+}
+
+.firstspec{
+    background-image: url(/images/zdjecie1.jpeg);
+    background-size: cover;
+}
+
+.secondspec{
+    background-image: url(/images/zdjecie2.jpeg);
+    background-size: cover;
+}
+
+.name{
+    font-weight: bold;
+}
+
+/* *//* OFFER *//* */
+
+.backgroundoffer{
+    background-color: #405D78;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapoffer{
+    padding-top: 50px;
+}
+
+.boxes{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 63px;
+    
+}
+
+.box{
+   width: 198px;
+   height: 194px;
+   background-color: #F1F1F1; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+.fresh{
+    background-color: #F1F1F1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.fresh::before{
+    content: " ";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-color: orange;
+    top: -11px;
+    left: -11px;
+    border-radius: 50%;
+}
+
+/* *//*FOOTER*//* */
+
+.backgroundfooter{
+    background-color: #4E4E4E;
+    display: flex;
+    justify-content: center;
+    height: 71px;
+}
+
+.wrapfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    width: 31px;
+    height: 31px;
+}
