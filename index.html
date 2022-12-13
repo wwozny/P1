@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projekt</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="top">
@@ -24,14 +24,18 @@
       </header>
     </div>
     <div class="background_hero">
-      <div class="wrap_hero widthstyle paddingbot white">
-        <div class="hero">
-          <h2 class="bigger">
-            Nasza firma oferuje najwyzszej <br />
-            jakosci produkty
-          </h2>
-          <h3 class="smallerherofont">Nie wierz nam na słowo - sprawdź</h3>
-          <a href="#offer"><button class="btn white bolded">oferta</button></a>
+      <div class="shadow">
+        <div class="wrap_hero widthstyle paddingbot white">
+          <div class="hero">
+            <h2 class="bigger">
+              Nasza firma oferuje najwyzszej <br />
+              jakosci produkty
+            </h2>
+            <h3 class="smallerherofont">Nie wierz nam na słowo - sprawdź</h3>
+            <a href="#offer"
+              ><button class="btn white bolded">oferta</button></a
+            >
+          </div>
         </div>
       </div>
     </div>
@@ -69,8 +73,8 @@
         <h2 class="bigger white">Czym zajmuje się nasza firma</h2>
         <div class="boxes">
           <div class="box fresh smaller">
-            <p>Usługa1</p>
-            <p>(nowość)</p>
+            <p class="smaller">Usługa1</p>
+            <p class="mini">(nowość)</p>
           </div>
           <div class="box smaller">Usługa2</div>
           <div class="box smaller">Usługa3</div>
@@ -86,16 +90,56 @@
           Nazwa firmy - wszelkie prawa zastrzezone, 2019
         </div>
         <div class="images">
-          <iframe
-            src="/images/square-facebook.svg"
-            frameborder="0"
-            class="icon"
-          ></iframe>
-          <iframe
-            src="/images/instagram.svg"
-            frameborder="0"
-            class="icon"
-          ></iframe>
+          <div class="icon">
+            <svg
+              width="31"
+              height="31"
+              viewBox="0 0 31 31"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_7_25)">
+                <path
+                  d="M21.3125 0H9.6875C4.33806 0 0 4.33806 0 9.6875V21.3125C0 26.6619 4.33806 31 9.6875 31H21.3125C26.6619 31 31 26.6619 31 21.3125V9.6875C31 4.33806 26.6619 0 21.3125 0ZM28.0938 21.3125C28.0938 25.0519 25.0519 28.0938 21.3125 28.0938H9.6875C5.94812 28.0938 2.90625 25.0519 2.90625 21.3125V9.6875C2.90625 5.94812 5.94812 2.90625 9.6875 2.90625H21.3125C25.0519 2.90625 28.0938 5.94812 28.0938 9.6875V21.3125Z"
+                  fill="white"
+                />
+                <path
+                  d="M15.5 7.75C11.2201 7.75 7.75 11.2201 7.75 15.5C7.75 19.7799 11.2201 23.25 15.5 23.25C19.7799 23.25 23.25 19.7799 23.25 15.5C23.25 11.2201 19.7799 7.75 15.5 7.75ZM15.5 20.3438C12.8301 20.3438 10.6562 18.1699 10.6562 15.5C10.6562 12.8282 12.8301 10.6562 15.5 10.6562C18.1699 10.6562 20.3438 12.8282 20.3438 15.5C20.3438 18.1699 18.1699 20.3438 15.5 20.3438Z"
+                  fill="white"
+                />
+                <path
+                  d="M23.8313 8.20148C24.4016 8.20148 24.864 7.73913 24.864 7.16879C24.864 6.59846 24.4016 6.13611 23.8313 6.13611C23.2609 6.13611 22.7986 6.59846 22.7986 7.16879C22.7986 7.73913 23.2609 8.20148 23.8313 8.20148Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_7_25">
+                  <rect width="31" height="31" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div class="icon">
+            <svg
+              width="31"
+              height="31"
+              viewBox="0 0 31 31"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_7_7)">
+                <path
+                  d="M31 5.16701C31 2.4521 28.5489 0 25.8333 0H5.16667C2.45107 0 0 2.4521 0 5.16701V25.833C0 28.5479 2.45107 31 5.16701 31H15.5V19.2889H11.7111V14.1222H15.5V12.1093C15.5 8.63763 18.1068 5.51111 21.3125 5.51111H25.4889V10.6778H21.3125C20.8554 10.6778 20.3222 11.2327 20.3222 12.0638V14.1222H25.4889V19.2889H20.3222V31H25.8333C28.5489 31 31 28.5479 31 25.833V5.16701Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_7_7">
+                  <rect width="31" height="31" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
         </div>
       </div>
     </div>

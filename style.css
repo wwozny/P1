@@ -67,9 +67,17 @@ html, body{
     background-size: cover;
     height: calc(100vh - 50px);
     width: 100%;
+}
+
+.shadow{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
+.wrap_hero{
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 1);
 }
 
 .hero{
@@ -86,12 +94,17 @@ html, body{
     border: 3px solid white;
     width: 164px;
     height: 41px;
+    cursor: pointer;
 }
 
 .btn:hover{
     background-color: white;
     color: black;
     transition-duration: 1s;
+}
+
+.shadow{
+    background-color:rgba(0, 0, 0, 0.5) ;
 }
 
 /* *//* ABOUT *//* */
@@ -108,7 +121,10 @@ html, body{
 }
 
 .employees{
-    margin-top: 15px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
 
 .employee{
@@ -199,6 +215,10 @@ html, body{
     border-radius: 50%;
 }
 
+.mini{
+    font-size: 12px;
+}
+
 /* *//*FOOTER*//* */
 
 .backgroundfooter{
@@ -217,4 +237,9 @@ html, body{
 .icon{
     width: 31px;
     height: 31px;
+}
+
+.images{
+    display: flex;
+    gap: 10px;
 }
